@@ -126,5 +126,9 @@ let area = computeArea(3,4)
 3. Write a function `findMax` that takes in 1 paramater, an array of numbers, and returns the highest number in that array.
 
 function findMax(arr){
-    
+    let inputs = nums.filter((val, i) => nums.indexOf(val) === i)
+	let max = Math.max(...nums);
+	let min = Math.min(...nums);
+  
+    return max + (-min);
 }
