@@ -118,6 +118,6 @@ function findMax (arr){
 for (i = 0; i < arr.length; i++){
 let value = value + arr;
 }
-console.log(value);
+return value;
 
 }
