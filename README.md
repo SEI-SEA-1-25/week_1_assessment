@@ -5,10 +5,10 @@
 #### For EACH and EVERY question in this section, assume you are in the `~/buffy` directory:
 
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`:
-<br><br><br>
 
-mkdir scoobies
-mkdir vamps
+<br>mkdir scoobies
+mkdir vamps<br><
+
 
 2. Create files in `scoobies` named `buffy.txt` and `angel.txt`:
 <br><br><br>
@@ -80,8 +80,13 @@ weekend.unshift("Friday');
 4. Using square bracket notation, access 'Saturday' in the `weekend` array and assign to a variable named `day` (Note: the array has three days in it as this point):
 <br><br>
 
+day = weekend[1];
+
 5. Remove 'Friday' from the array:
 <br><br>
+
+weekend.shift('Friday');
+
 
 6. Loop through the `weekend` array and for each element in it, print `"Woohoo! It's finally <day name>"`
 
