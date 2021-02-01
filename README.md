@@ -7,22 +7,40 @@
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`:
 <br><br><br>
 
+mkdir scoobies
+mkdir vamps
+
 2. Create files in `scoobies` named `buffy.txt` and `angel.txt`:
 <br><br><br>
+
+cd scoobies
+touch buffy.txt
+
+cd ../vamps
+touch angel.txt
 
 3. Copy `angel.txt` into the `vamps` directory:
 <br><br><br>
 
+
+
 4. Delete the `vamps` directory and everything inside it:
 <br><br>
+
+cd ~/buffy
+rm -rf vamps
 
 ### JS Variables
 
 1. Assign the string "Ahab" to a variable named `captain`:
 <br><br>
 
+let captain = 'Ahab';
+
 2. Using the `captain` variable instead of the text "Ahab", use string concatenation to form the string "Oh Ahab, my Ahab!", assigning it to a variable named `phrase`:
 <br><br>
+
+var phrase = `Oh ${captain}, my ${captain}!`;
 
 
 ### JS Conditionals
@@ -34,17 +52,30 @@ var lifeRafts = 2;
 1. Assuming the above variables, write an `if` statement that console.logs "SOS!" if there are more `souls` than `lifeRafts` (no need to write a function, just the `if` statement please):
 <br><br>
 
+if (souls > lifeRafts) {
+    console.log("SOS");
+}
+return;
+
+    
 
 ### Data Structures - JS Arrays
 
 1. Create an array named `weekend` with just a string 'Saturday' in it:
+
+weekend = ['Saturday'];
 <br><br>
 
 2. Add the string 'Sunday' to the end of the `weekend` array:
+weekend.push
 <br><br>
+
+weekend.push('Sunday');
 
 3. Now add the string 'Friday' to the front of the `weekend` array:
 <br><br>
+
+weekend.unshift("Friday');
 
 4. Using square bracket notation, access 'Saturday' in the `weekend` array and assign to a variable named `day` (Note: the array has three days in it as this point):
 <br><br>
