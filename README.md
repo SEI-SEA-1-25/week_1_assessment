@@ -7,7 +7,6 @@
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`:
 <br><br><br>
 pwd
-cd buffy
 mkdir scoobies
 mkdir vamps
 ls
@@ -51,7 +50,7 @@ var lifeRafts = 2;
 1. Assuming the above variables, write an `if` statement that console.logs "SOS!" if there are more `souls` than `lifeRafts` (no need to write a function, just the `if` statement please):
 <br><br>
 if (souls > lifeRafts) {
-    console.log(`There are more ${souls} than ${lifeRafts}`);
+    console.log(`SOS!`);
 }
 
 ### Data Structures - JS Arrays
