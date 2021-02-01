@@ -1,7 +1,5 @@
 # SEI Week 1 Assessment
 
-## NAME: ___________________________
-
 ### Bash (Terminal)
 
 #### For EACH and EVERY question in this section, assume you are in the `~/buffy` directory:
